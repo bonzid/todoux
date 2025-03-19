@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Titillium_Web';
+    src: url("../fonts/Titillium_Web/TitilliumWeb-Regular.ttf");
+    font-weight: 300;
+  }
+
+@font-face {
+    font-family: 'Press_Start_2P';
+    src: url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+    font-weight: 300;
+}
+
+body {
+    background: #E87EA1;
+    justify-content: center;  
+    align-items: center;
+}
+
+.title{
+    font-family: 'Press_Start_2P', sans-serif;
+    font-size: 12px;
+    text-align:center;
+    margin-top: 5px;
+    color:#c60a56;
+}
+
+.list{
+    font-family: 'Titillium_Web', sans-serif;
+    color:#eeebd0;
+
+}
