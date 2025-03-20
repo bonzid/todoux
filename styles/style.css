@@ -13,6 +13,7 @@
 body{
     background: #eeebd0;
     display:flex;
+    flex-direction: column;
     justify-content: center;  
     align-items: center;
     height:100vh;
@@ -23,10 +24,8 @@ body{
     width:300px;
     height:300px;
     display:flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
     padding: 10px;
     position: relative;
 }
@@ -58,5 +57,11 @@ body{
 .list{
     font-family: 'Titillium_Web', sans-serif;
     color:#eeebd0;
-    font-size:22px;
+    font-size:18px;
+    text-align:justify;
+}
+
+.bunnies{
+    width:100px;
+    margin-top:10px;
 }
