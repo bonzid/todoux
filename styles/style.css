@@ -12,15 +12,38 @@
 
 body{
     background: #eeebd0;
+    display:flex;
     justify-content: center;  
     align-items: center;
+    height:100vh;
 }
 
 .postit {
     background: #E87EA1;
-    justify-content: center;  
+    width:300px;
+    height:300px;
+    display:flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
 }
+
+/*effet du coin replié*/
+.postit::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-180deg);
+    background: #eeebd0;
+    border-bottom: 40px solid #c60a56;
+    border-right: 40px solid transparent;
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+
 
 .title{
     font-family: 'Press_Start_2P', sans-serif;
@@ -29,7 +52,7 @@ body{
     margin-top: 5px;
     color:#c60a56;
     text-shadow: 1px 1px 2px #464646;
-    letter-spacing:-1px;
+    letter-spacing:-3px;
 }
 
 .list{
