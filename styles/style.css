@@ -10,7 +10,13 @@
     font-weight: 300;
 }
 
-body {
+body{
+    background: #eeebd0;
+    justify-content: center;  
+    align-items: center;
+}
+
+.postit {
     background: #E87EA1;
     justify-content: center;  
     align-items: center;
