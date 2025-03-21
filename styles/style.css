@@ -5,8 +5,8 @@
   }
 
 @font-face {
-    font-family: 'Press_Start_2P';
-    src: url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+    font-family: 'NTBrickSans';
+    src: url("../fonts/NTBrickSans/NTBrickSans.ttf");
     font-weight: 300;
 }
 
@@ -21,10 +21,9 @@ body{
 
 .postit {
     background: #E87EA1;
-    width:300px;
+    width:250px;
     height:300px;
     display:flex;
-    align-items: center;
     flex-direction: column;
     padding: 10px;
     position: relative;
@@ -45,20 +44,20 @@ body{
 
 
 .title{
-    font-family: 'Press_Start_2P', sans-serif;
+    font-family: 'NTBrickSans', sans-serif;
     font-size: 12px;
     text-align:center;
-    margin-top: 5px;
     color:#c60a56;
-    text-shadow: 1px 1px 2px #464646;
-    letter-spacing:-3px;
+    text-decoration: none;
 }
 
 .list{
     font-family: 'Titillium_Web', sans-serif;
     color:#eeebd0;
-    font-size:18px;
+    font-size:16px;
     text-align:justify;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 .bunnies{
