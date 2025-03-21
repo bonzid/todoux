@@ -58,6 +58,11 @@ body{
     text-align:justify;
     padding-left:20px;
     padding-right:20px;
+    line-height:35px;
+}
+
+.imgs_list{
+    width:20px;
 }
 
 .bunnies{
