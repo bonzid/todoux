@@ -1,5 +1,5 @@
-# To-doux list : une to-do liste interactive et mignonne 🐇
-To-doux list est une application web simple qui permet de gérer ses tâches de manière interactive. L’utilisateur peut ajouter une tâche en cliquant sur "+", entrer son texte, puis voir apparaître un symbole "heart" à côté. Une fois la tâche accomplie, un clic transforme le "heart" en "check". Rien de plus, rien de moins (pour l'instant) !
+# To-doux list : une to-do liste interactive et mignonne
+To-doux list est une application web simple qui permet de gérer ses tâches de manière interactive. L’utilisateur peut ajouter une tâche en cliquant sur "+", entrer son texte, puis voir apparaître un symbole "heart" à côté. Une fois la tâche accomplie, un clic transforme le "heart" en "check". Rien de plus, rien de moins (pour l'instant) ! 🐇
 
 ![ Aperçu de la plateforme](/images/preview.png "Aperçu de la plateforme") 
 
@@ -17,7 +17,7 @@ L’application est basée sur HTML, CSS et JavaScript pour l’interface et les
 ## Portabilité
 
 - Compatible avec tous les navigateurs modernes (Chrome, Firefox, Edge, etc.)
-- A héberger localement sur un serveur Apache (via XAMPP, WAMP, ou PHP natif)
+- Et c'est tout !
 
 
 ## To-do liste
